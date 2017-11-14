@@ -81,19 +81,33 @@ nav ul {
   padding-right: 20px;
 }
 
+
 nav ul li {
   display: inline-block;
   line-height: 80px;
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  border-bottom:5px solid #3ead47;
+  text-align:center; 
+  transition:all 0.2s linear;
 }
 
+
 nav ul li a {
+  display: block;
+  color: #fff;
+  text-shadow: 1px 0px 50px;
+  font-weight:;
   display: block;
   padding: 0 10px;
   text-decoration: none;
 }
-
-nav ul li a:hover {
+nav ul li:hover {
   background: #3ead47;
+  box-shadow:1px 1px 20px #111 inset;
 }
 #main-content {
   background: white;
@@ -301,5 +315,6 @@ body {
   border-left: 2px solid black;
   border-right: 2px solid black;*/
 }
+
 
 
